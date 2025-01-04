@@ -1,0 +1,68 @@
+/* Main Container */
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f6f9;
+    margin: auto; 
+  }
+  
+  /* Content Area */
+  .home-page-content {
+    margin-top: 80px; /* Adjust to leave space for the header */
+    padding-bottom: 30px; /* Adjust to leave space for the footer */
+  }
+  
+  /* Main Section */
+  .main-section {
+    padding: 40px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+  
+  .main-section .MuiTypography-h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .main-section .MuiTypography-h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  
+  /* Centered Button */
+  .centered-button {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .get-started-btn {
+    background: #2575fc;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #6a11cb;
+  }
+  
+  /* Link for button styling */
+  .link {
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #2575fc;
+    padding: 15px;
+    color: #fff;
+  }
+  

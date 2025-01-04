@@ -1,0 +1,116 @@
+/* General Page Styling */
+
+  
+  .login-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    width: 100vw; /* Full width of the viewport */
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+  }
+  
+  /* Card Styling */
+  .login-card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 90%; /* Makes the card responsive */
+    max-width: 400px; /* Prevents it from being too wide */
+    text-align: center;
+  }
+  
+  /* Header Styling */
+  .login-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-icon {
+    font-size: 36px;
+    color: #6a11cb;
+    margin-right: 10px;
+  }
+  
+  .login-title {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Form Styling */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-input {
+    padding: 12px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .login-button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #6a11cb;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #2575fc;
+  }
+  
+  /* Divider Styling */
+  .login-divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .login-line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ddd;
+    border: none;
+  }
+  
+  .login-or {
+    margin: 0 12px;
+    color: #888;
+    font-size: 14px;
+  }
+  
+  /* Google Button Styling */
+  .google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #444;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .google-button:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .google-icon {
+    margin-right: 8px;
+  }
+  
