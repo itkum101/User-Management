@@ -9,6 +9,11 @@
         "route": "/index.html",
         "serve": "/index.html",
         "statusCode": 200
+      },
+      {
+        "route": "/assets/*.css",
+        "serve": "/assets/*.css",
+        "statusCode": 200
       }
     ],
     "navigationFallback": {
