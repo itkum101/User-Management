@@ -1,9 +1,19 @@
 {
     "routes": [
       {
-        "route": "/*",
-        "rewrite": "/index.html"
+        "route": "/assets/*",
+        "serve": "/assets/*",
+        "statusCode": 200
+      },
+      {
+        "route": "/index.html",
+        "serve": "/index.html",
+        "statusCode": 200
       }
-    ]
+    ],
+    "navigationFallback": {
+      "rewrite": "/index.html",
+      "exclude": ["/static/*", "/assets/*"]
+    }
   }
   
