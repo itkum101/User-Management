@@ -1,0 +1,9 @@
+{
+    "route": "/assets/*",
+    "serve": "/assets/*",
+    "statusCode": 200,
+    "headers": {
+      "Content-Type": "text/css"
+    }
+  }
+  
